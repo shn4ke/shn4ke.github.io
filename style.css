@@ -25,6 +25,8 @@ a{
 }
 
 body{
+    padding: 0;
+    margin: 0;
     background-color: grey;
     background-image: url(images/background.jpg);
     background-attachment: fixed;

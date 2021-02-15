@@ -6,30 +6,64 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HOME | SHN4KE</title>
+        <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+    <!-- swiper slider css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css" integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA==" crossorigin="anonymous" />
         <link rel="stylesheet" href="style.css">
 
     </head>
 
      <body>
-         
+
          <!-- Header -->
-         <div class="container">
 
-            <header>
-                <img height="30px" src="images/logo.png" alt="shn4ke-logo">
-            </header>
-    
-            <nav> 
-                <a href="index.html">HOME</a>
-                <a href="#">PICTURES</a>
-                <a href="#">CONTACT</a>
+         <header id="header" class="shadow bg-light">
+            <nav class="container navbar">
+                 <img class="nav-brand" height="45px" src="images/logo.png" alt="shn4ke logo">
+ 
+                 <!-- toggle button -->
+                 <button class="toggle-button">
+                     <span><i class="fas fa-bars"></i></span>
+                 </button>
+ 
 
+
+
+
+                 <!-- collapse on toggle button click -->
+                 <div class="collapse">
+                     <ul class="navbar-nav">
+                         <a href="index.html" class="nav-link">HOME</a>
+                         <a href="#" class="nav-link">PICTURES</a>
+                         <a href="#" class="nav-link">CONTACT</a>
+                     </ul>
+                 </div>
+ 
+
+
+
+
+                   <!-- collapse on toggle button click -->
+                   <div class="collapse">
+                       <ul class="navbar-nav">
+                             <a href="https://instagram.com/chahal_73" class="nav-link"><i class="fab fa-instagram"></i></a>
+                             <a href="https://twitter.com/shn4ke" class="nav-link"><i class="fab fa-twitter"></i></a>
+                             <a href="https://www.behance.net/bachittchahal" class="nav-link"><i class="fab fa-behance"></i></a>
+                             <a href="https://www.twitch.tv/shn4ke" class="nav-link"><i class="fab fa-twitch"></i></a>
+                             <a href="https://www.youtube.com/channel/UCEchQAp0Pkou6nzfz0SOeVQ" class="nav-link"><i class="fab fa-youtube"></i></a>
+                       </ul>
+                   </div>
             </nav>
-
-         </div>
+        </header>
 
          <!-- .Header -->
     
+
+        <!-- custom js  -->
+        <script src="main.js"></script>
+
 
 
      </body>
